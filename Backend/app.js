@@ -69,7 +69,7 @@ app.get("/versions", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/dist/index.html"));
+  res.sendFile(path.join(__dirname, "../A1/dist/index.html"));
 });
 
 app.listen(PORT, () => {
